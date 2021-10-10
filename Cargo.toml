@@ -1,0 +1,16 @@
+[package]
+name = "tempus"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+one-wire-bus = "0.1"
+embedded-hal = "0.2"
+ds18b20 = "0.1.1"
+rppal = { version =  "0.12", features= ["hal-unproven"] }
+chrono = "0.4"
+tokio = { version = "1.1", features = ["full"] }
+prometheus_exporter = "0.8"
+actix = "0.12"
