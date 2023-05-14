@@ -1,5 +1,5 @@
 [package]
-name = "tempus"
+name = "ds18b20-exporter"
 version = "0.1.0"
 edition = "2018"
 

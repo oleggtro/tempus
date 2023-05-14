@@ -6,8 +6,8 @@ set -o pipefail
 set -o xtrace
 
 readonly TARGET_HOST=pi@192.168.178.93
-readonly TARGET_PATH=/home/pi/tempus
-readonly SOURCE_PATH=./target/arm-unknown-linux-gnueabi/release/tempus
+readonly TARGET_PATH=/home/pi/ds18b20-exporter
+readonly SOURCE_PATH=./target/arm-unknown-linux-gnueabi/release/ds18b20-exporter
 readonly TARGET_ARCH=arm-unknown-linux-gnueabi
 
 
